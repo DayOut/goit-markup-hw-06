@@ -77,7 +77,7 @@ li {
   line-height: 14px;
 }
 
-.text-medium {
+.medium {
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
   font-size: 16px;
