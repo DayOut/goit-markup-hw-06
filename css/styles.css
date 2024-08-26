@@ -182,6 +182,10 @@ footer {
   color: var(--slate);
 }
 
+.color-cloud {
+  color: var(--cloud);
+}
+
 .bg-navy-blue {
   background-color: var(--navy-blue);
 }
