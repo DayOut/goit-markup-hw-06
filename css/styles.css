@@ -60,7 +60,11 @@ li {
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+
 }
 
 .text-header-small {
@@ -161,7 +165,7 @@ li {
   cursor: pointer;
 }
 
-.order-btn:hover {
+.order-btn:hover, .order-btn:focus {
   background-color: var(--ocean);
 }
 
@@ -172,4 +176,8 @@ li {
 footer {
   background-color: var(--navy-blue);
   color: var(--white);
+}
+
+.color-slate {
+  color: var(--slate);
 }
