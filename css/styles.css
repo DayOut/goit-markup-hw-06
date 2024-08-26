@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-family), Roboto;
   font-weight: var(--font-weight-regular);
   font-size: 16px;
   line-height: 24px;
@@ -144,6 +144,10 @@ li {
 
 .order-btn {
   background-color: var(--iris);
+}
+
+.order-btn:hover {
+  background-color: var(--ocean);
 }
 
 .card {
