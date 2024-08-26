@@ -12,7 +12,7 @@
   --white: #FFFFFF;
   --dairy: #FCFCFC;
 
-  --font-family: Roboto;
+  --font-family: "Roboto";
   --font-weight-regular: 400;
   --font-weight-medium: 500; 
   --font-weight-bold: 700; 
@@ -47,26 +47,30 @@ li {
   list-style: none;
 }
 
-.text-header-1 {
+.text-header-large {
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
   font-size: 56px;
   letter-spacing: 2%;
-  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
-.text-header-2 {
+.text-header-medium {
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
   font-size: 36px;
   letter-spacing: 2%;
 }
 
-.text-header-3 {
+.text-header-small {
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: var(--navy-blue);
+
 }
 
 .text-small {
@@ -151,6 +155,10 @@ li {
 
 .order-btn {
   background-color: var(--iris);
+  font-family: var(--font-family), sans-serif;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
 }
 
 .order-btn:hover {
