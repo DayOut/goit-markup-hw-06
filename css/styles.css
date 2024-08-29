@@ -20,10 +20,7 @@
 
 body {
   font-family: var(--font-family), sans-serif;
-  font-weight: var(--font-weight-regular);
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
 
   color: var(--slate);
   background-color: var(--white);
@@ -31,7 +28,6 @@ body {
 
 a, a:visited {
   text-decoration: none;
-  color: inherit;
 }
 
 a:hover, a:focus {
@@ -47,18 +43,18 @@ li {
   list-style: none;
 }
 
+.btn {
+  border: none;
+}
+
 .text-header-large {
   font-family: var(--font-family);
-  font-weight: var(--font-weight-bold);
   font-size: 56px;
-  letter-spacing: 2%;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
 .text-header-medium {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-bold);
   font-size: 36px;
   letter-spacing: 0.02em;
   line-height: 1.11;
@@ -68,7 +64,6 @@ li {
 }
 
 .text-header-small {
-  font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -85,8 +80,55 @@ li {
   line-height: 14px;
 }
 
+.regular {
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--navy-blue);
+}
+
+.points-section-text-regular {
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--navy-blue);
+}
+
+.team-section-text-regular {
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--navy-blue);
+}
+
+.portfolio-section-text-regular {
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--navy-blue);
+}
+
+.footer-text-regular {
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--navy-blue);
+}
+
+.header-address-regular {
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--navy-blue);
+}
+
 .medium {
-  font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -94,12 +136,16 @@ li {
   color: var(--navy-blue);
 }
 
-.text-normal {
-  font-style: normal;
+.header-menu-item {
+  font-weight: var(--font-weight-medium);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--navy-blue);
 }
 
-.btn {
-  border: none;
+.font-normal {
+  font-style: normal;
 }
 
 .button-text {
