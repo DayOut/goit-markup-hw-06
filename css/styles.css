@@ -18,12 +18,26 @@
   --font-weight-bold: 700; 
 }
 
+h1,h2,h3,h4,h5,h6,p {
+  margin:0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 body {
   font-family: var(--font-family), sans-serif;
   font-size: 16px;
 
   color: var(--slate);
   background-color: var(--white);
+}
+
+.hidden {
+  display: none;
+
 }
 
 a, a:visited {
@@ -47,11 +61,62 @@ li {
   border: none;
 }
 
+.container { 
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header {
+  border-bottom: solid var(--cornflower);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header nav {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  align-items: center;
+  display: flex;
+}
+
+.header-links {
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header-adress-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.header-adress-links-item {
+  display: flex;
+  padding: 0 20px 0 20px;
+}
+
+.header-links {
+  gap: 40px;
+  padding: 24px 0 24px 0;
+}
+
+.header-address {
+  font-style: normal;
+  padding: 24px 0 24px 0;
+
+}
+
 .text-header-large {
   font-family: var(--font-family);
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  padding: 48px 0 48px 0;
 }
 
 .text-header-medium {
@@ -68,6 +133,7 @@ li {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  padding: 8px 8px 8px 0;
   color: var(--navy-blue);
 
 }
@@ -86,6 +152,22 @@ li {
   letter-spacing: 0.02em;
   line-height: 24px;
   color: var(--navy-blue);
+}
+
+.points-section {
+  padding-top: 120px;
+  padding-bottom: 120px;;
+}
+
+.our-points-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.our-points-list-item {
+  max-width: calc((100% - (24px*3)) / 4);
 }
 
 .points-section-text-regular {
@@ -187,12 +269,9 @@ li {
   color: var(--cloud);
 }
 
-.header {
-  border: solid var(--cornflower);
-}
-
 .order-section {
   background-color: var(--navy-blue); 
+  padding: 140px 0 140px 0;
 }
 
 .text-center {
@@ -209,6 +288,8 @@ li {
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
+  padding: 16px;
+  border-radius: 4px;
 }
 
 .order-btn:hover, .order-btn:focus {
