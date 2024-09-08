@@ -206,6 +206,7 @@ li {
 }
 
 .footer-text-regular {
+  max-width: 264px;
   font-weight: var(--font-weight-regular);
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -284,7 +285,13 @@ li {
   color: var(--navy-blue);
 }
 
-.logo.studio-light {
+.logo-studio-light {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: var(--font-weight-bold);
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--cloud);
 }
 
@@ -324,7 +331,8 @@ li {
   background-color: var(--white);
 }
 
-footer {
+.footer {
+  padding: 100px 0;
   background-color: var(--navy-blue);
   color: var(--white);
 }
