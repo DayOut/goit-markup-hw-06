@@ -67,19 +67,25 @@ li {
 
 .container { 
   max-width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0;
+  padding-right: 0;
   margin-left: 0;
   margin-right: 0;
+  width: 1158px; 
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
   border-bottom: 1px solid var(--cornflower);
+}
+
+.header-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.header nav {
+.navigation-links {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
@@ -97,11 +103,11 @@ li {
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 0;
+  gap: 40px;
 }
 
 .header-adress-links-item {
   display: flex;
-  padding: 0 20px 0 20px;
 }
 
 .header-links {
@@ -227,6 +233,7 @@ li {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 24px;
+  padding: 24px 0;
   color: var(--navy-blue);
 }
 
@@ -262,10 +269,17 @@ li {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
   color: var(--iris);
 }
 
-.logo.studio {
+.logo-studio {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: var(--font-weight-bold);
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--navy-blue);
 }
 
