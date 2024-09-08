@@ -264,6 +264,10 @@ li {
   margin-bottom: 8px
 }
 
+.portfolio-item-name {
+  margin-bottom: 8px;
+}
+
 .footer-text-regular {
   max-width: 264px;
   font-weight: var(--font-weight-regular);
