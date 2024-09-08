@@ -63,6 +63,9 @@ li {
 
 .btn {
   border: none;
+  display: block;
+  min-width: 169px;
+  height: 56px;
 }
 
 .container { 
@@ -126,7 +129,6 @@ li {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding: 48px 0 48px 0;
 }
 
 .text-header-medium {
@@ -143,7 +145,6 @@ li {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  padding: 8px 8px 8px 0;
   color: var(--navy-blue);
 
 }
@@ -289,7 +290,12 @@ li {
 
 .order-section {
   background-color: var(--navy-blue); 
-  padding: 140px 0 140px 0;
+  padding: 188px 0 188px 0;
+}
+
+.order-section-header {
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .text-center {
