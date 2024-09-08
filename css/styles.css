@@ -39,11 +39,6 @@ body {
   background-color: var(--white);
 }
 
-.hidden {
-  display: none;
-
-}
-
 a, a:visited {
   text-decoration: none;
 }
@@ -59,6 +54,20 @@ a.active {
 
 li {
   list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .btn {
@@ -137,7 +146,7 @@ li {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--navy-blue);
-
+  margin-bottom: 72px;
 }
 
 .text-header-small {
@@ -146,7 +155,7 @@ li {
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: var(--navy-blue);
-
+  padding-bottom: 8px;
 }
 
 .text-small {
@@ -167,7 +176,7 @@ li {
 
 .points-section {
   padding-top: 120px;
-  padding-bottom: 120px;;
+  padding-bottom: 120px;
 }
 
 .our-points-list {
@@ -195,6 +204,20 @@ li {
   letter-spacing: 0.02em;
   line-height: 24px;
   color: var(--navy-blue);
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;;
+}
+
+.team-list-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item-text {
+  padding: 32px 0
 }
 
 .portfolio-section-text-regular {
