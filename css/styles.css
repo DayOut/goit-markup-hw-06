@@ -265,6 +265,7 @@ li {
 }
 
 .logo {
+  display: inline-block;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: var(--font-weight-bold);
