@@ -241,8 +241,15 @@ li {
   margin-top: 8px;
 }
 
+.social-item {
+  width: 40px;
+  height: 40px;
+}
+
 .team-list-item-social-svg {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   background-color: var(--iris);
   padding: 12px;
@@ -251,8 +258,13 @@ li {
   transition: background-color 300ms ease-in-out;
 }
 
-.team-list-item-social-svg:hover, .team-list-item-social-svg:active  {
+.team-list-item-social-svg:hover, 
+.team-list-item-social-svg:focus {
   background-color: var(--ocean);
+}
+
+.social-svg {
+  fill: var(--cloud);
 }
 
 .team-list-name {
