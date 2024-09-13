@@ -548,10 +548,6 @@ li {
   align-items: baseline;
 }
 
-.footer-social {
-  
-}
-
 .footer-social-media {
   font-weight: var(--font-weight-medium);
   font-size: 16px;
@@ -582,10 +578,10 @@ li {
   transition: background-color 300ms ease-in-out;
 }
 
-.footer-social-icons-svg:active,
+.footer-social-icons-svg:hover,
 .footer-social-icons-svg:focus,
 .footer-social-icons-svg:target,
-.footer-social-icons-svg:hover {
+.footer-social-icons-svg:active {
   background-color: var(--green);
 }
 
@@ -603,7 +599,7 @@ li {
 .footer-social-svg:hover,
 .footer-social-svg:focus,
 .footer-social-svg:target,
-.footer-social-svg:hover {
+.footer-social-svg:active {
   background-color: var(--green);
 }
 
