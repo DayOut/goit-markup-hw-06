@@ -572,17 +572,40 @@ li {
 
 .footer-social-icons-svg {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: var(--iris);
-    width: 40px;
-    height: 40px;
-    margin-bottom: 42px;
-    transition: background-color 300ms ease-in-out;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--iris);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 42px;
+  transition: background-color 300ms ease-in-out;
 }
 
+.footer-social-icons-svg:active,
+.footer-social-icons-svg:focus,
+.footer-social-icons-svg:target,
 .footer-social-icons-svg:hover {
+  background-color: var(--green);
+}
+
+.footer-social-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: background-color 300ms ease-in-out;
+}
+
+.footer-social-svg:hover,
+.footer-social-svg:focus,
+.footer-social-svg:target,
+.footer-social-svg:hover {
   background-color: var(--green);
 }
 
