@@ -597,8 +597,6 @@ li {
   height: 100%;
   background-color: var(--iris);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
   transition: background-color 300ms ease-in-out;
 }
 
