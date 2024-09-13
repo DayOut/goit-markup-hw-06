@@ -272,6 +272,9 @@ li {
 
 .social-svg {
   fill: var(--cloud);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-list-name {
@@ -562,15 +565,25 @@ li {
   display: flex;
   gap: 16px;
   margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 300ms;
 }
 
 .footer-social-icons-svg {
-  border-radius: 50%;
-  background-color: var(--iris);
-  width: 40px;
-  height: 40px;
-  margin-bottom: 42px;
-  transition: background-color 300ms ease-in-out;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--iris);
+    width: 40px;
+    height: 40px;
+    margin-bottom: 42px;
+    transition: background-color 300ms ease-in-out;
+}
+
+.footer-social-icons-svg:hover {
+  background-color: var(--green);
 }
 
 .footer-social-icons svg {
