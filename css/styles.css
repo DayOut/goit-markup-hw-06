@@ -328,6 +328,7 @@ li {
 
 .portfolio-card-img {
   position: relative;
+  overflow: hidden;
 }
 
 .overlay {
@@ -337,12 +338,16 @@ li {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 8px;
-  background-color: #3f51b5;
+  padding: 40px 32px;
+  background-color: var(--iris);
   color: #fbdfdf;
   font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  color: var(--cloud);
   transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card-text {
