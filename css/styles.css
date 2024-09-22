@@ -409,7 +409,7 @@ li {
   color: var(--ocean);
 }
 
-.header-menu-item::after {
+.active::after {
   content: '';
   width: 100%;
   position: absolute;
