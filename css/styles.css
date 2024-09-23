@@ -835,6 +835,7 @@ textarea.modal-input {
   border: 1px solid var(--iris);
 }
 
-.modal-input:focus .input-svg {
+.modal-input:focus + .input-svg {
   color: var(--iris);
+  fill: var(--iris);
 }
