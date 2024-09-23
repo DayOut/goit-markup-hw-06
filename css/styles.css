@@ -752,7 +752,6 @@ li {
   text-align: left;
   display: block;
   width: 100%;
-  padding-bottom: 8px;
   margin-bottom: 4px;
   color: rgba(142, 143, 153, 1);
   font-size: 12px;
@@ -813,6 +812,8 @@ li {
 
 .input-block {
   position: relative;
+  width: 100%;
+  margin-bottom: 8px;
 }
 
 .input-svg {
