@@ -545,32 +545,38 @@
     </footer>
     <div class="modal-overlay is-open">
       <div class="modal">
-        <p>X</p>
+        <button type="button" class="modal-btn">
+          <svg class="modal-close-btn-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-icon-send"></use>
+          </svg>
+        </button>
         <p class="modal-header">
           Leave your contacts and we will call you back
         </p>
-        <div class="modal-inputs">
-          <label class="modal-label text-small">
-            Name
-            <input class="modal-input" type="text" />
-          </label>
-          <label class="modal-label text-small">
-            Phone
-            <input class="modal-input" type="tel" />
-          </label>
-          <label class="modal-label text-small">
-            Email
-            <input class="modal-input" type="email" />
-          </label>
-          <label class="modal-label text-small">
-            Comment
-            <textarea class="modal-input" placeholder="Text input"></textarea>
-          </label>
-          <label class="text-small color-light-slate">
-            <input class="" type="checkbox" name="p-policy" />
-            I accept the terms and conditions of the Privacy Policy
-          </label>
-        </div>
+        <form>
+          <div class="modal-inputs">
+            <label class="modal-label" for="user-name">
+              Name
+              <input class="modal-input" type="text" />
+            </label>
+            <label class="modal-label">
+              Phone
+              <input class="modal-input" type="tel" />
+            </label>
+            <label class="modal-label">
+              Email
+              <input class="modal-input" type="email" />
+            </label>
+            <label class="modal-label">
+              Comment
+              <textarea class="modal-input" placeholder="Text input"></textarea>
+            </label>
+            <label class=" color-light-slate">
+              <input class="" type="checkbox" name="p-policy" />
+              I accept the terms and conditions of the Privacy Policy
+            </label>
+          </div>
+        </form>
       </div>
     </div>
   </body>
