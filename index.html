@@ -553,7 +553,7 @@
         <p class="modal-header">
           Leave your contacts and we will call you back
         </p>
-        <form>
+        <form class="modal-form">
           <div class="modal-inputs">
             <label class="modal-label" for="user-name"> Name </label>
             <div class="input-block">
@@ -596,14 +596,21 @@
               </svg>
             </div>
           </div>
-          <div class="modal-inputs">
-            <label class="modal-label">
+          <div class="modal-inputs mb-16">
+            <label class="modal-label" for="user-comment">
               Comment
-              <textarea class="modal-input" placeholder="Text input"></textarea>
             </label>
-            <label class="color-light-slate">
-              <input class="" type="checkbox" name="p-policy" />
+            <textarea id="user-comment" name="user-comment" class="modal-textarea" placeholder="Text input"></textarea>
+          </div>
+          <div class="modal-inputs mb-24">
+            <input class="modal-checkbox visually-hidden" type="checkbox"  id="user-privacy" name="user-privacy" value="true" />
+            <label class="color-light-slate modal-checkbox-label" for="user-privacy">
               I accept the terms and conditions of the Privacy Policy
+              <span class="modal-checkbox-span">
+                <svg class="" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
             </label>
           </div>
         </div>
