@@ -89,7 +89,7 @@ li {
 }
 
 .container { 
-  max-width: 100%;
+  max-width: 1158px;
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
@@ -194,6 +194,12 @@ li {
   }
 }
 
+@media screen and (min-width: 1439.99px) {
+  .header-links {
+    margin: 0;
+  }
+}
+
 .text-header-large {
   font-family: Roboto;
   font-size: 36px;
@@ -222,11 +228,31 @@ li {
 }
 
 .text-header-small {
-  font-weight: var(--font-weight-medium);
-  font-size: 20px;
-  letter-spacing: 0.02em;
+  font-weight: var(--font-weight-bold);
   line-height: 1.2;
   color: var(--navy-blue);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+@media only screen and (min-width: 767.99px) {
+  .text-header-small {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1439.99px) {
+  .text-header-small {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+  }
 }
 
 .text-small {
@@ -250,15 +276,36 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  margin: 0 16px;
 }
 
 .our-points-list-item {
-  max-width: calc((100% - (24px*3)) / 4);
+  margin: 0 0 72px 0;
+}
+
+.our-points-list-item:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 767.99px) {
+  .our-points-list-item {
+    max-width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1439.99px) {
+  .our-points-list {
+    margin: 0;
+  }
+
+  .our-points-list-item {
+    max-width: calc((100% - (24px*3)) / 4);
+  }
 }
 
 .ur-points-list-item-img {
   height: 112px;
-  display: flex;
+  display: none; /* flex */
   justify-content: center;
   align-items: center;
   padding: 24px 0;
@@ -266,6 +313,12 @@ li {
   margin-bottom: 8px;
   background-color: var(--cloud);
   border: 1px solid var(--light-slate);
+}
+
+@media screen and (min-width: 1439.99px) {
+  .ur-points-list-item-img {
+    display: flex; 
+  }
 }
 
 .our-points-list-item-header {
@@ -542,6 +595,12 @@ li {
 @media screen and (min-width: 767.99px) {
   .logo {
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1439.99px) {
+  .logo {
+    margin-right: 76px;
   }
 }
 
