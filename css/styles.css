@@ -105,7 +105,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1439.99px) {
+@media screen and (min-width: 1157.99px) {
   .container {
     width: 1158px; 
   }
@@ -194,7 +194,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1439.99px) {
+@media screen and (min-width: 1157.99px) {
   .header-links {
     margin: 0;
   }
@@ -247,7 +247,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 1439.99px) {
+@media only screen and (min-width: 1157.99px) {
   .text-header-small {
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -293,7 +293,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1439.99px) {
+@media screen and (min-width: 1157.99px) {
   .our-points-list {
     margin: 0;
   }
@@ -315,7 +315,7 @@ li {
   border: 1px solid var(--light-slate);
 }
 
-@media screen and (min-width: 1439.99px) {
+@media screen and (min-width: 1157.99px) {
   .ur-points-list-item-img {
     display: flex; 
   }
@@ -371,7 +371,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 1439.99px) {
+@media only screen and (min-width: 1157.99px) {
   .team-list {
     gap: 24px;
   }
@@ -489,7 +489,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 1439.99px) {
+@media only screen and (min-width: 1157.99px) {
   .portfolio-list {
     margin: 0;
     width: 100%;
@@ -670,7 +670,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1439.99px) {
+@media screen and (min-width: 1157.99px) {
   .logo {
     margin-right: 76px;
   }
@@ -740,7 +740,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1439.99px) {
+@media screen and (min-width: 1157.99px) {
   .order-section-header {
     max-width: 496px;
     margin: 0 auto;
@@ -794,7 +794,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 1439.99px) {
+@media only screen and (min-width: 1157.99px) {
   .footer-container {
     flex-wrap: nowrap;
   }
@@ -815,7 +815,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 1439.99px) {
+@media only screen and (min-width: 1157.99px) {
   .footer-social {
     margin-right: 80px;
   }
@@ -846,7 +846,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 1439.99px) {
+@media only screen and (min-width: 1157.99px) {
   .footer-social-icons {
     display: flex;
     gap: 16px;
@@ -914,7 +914,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 1439.99px) {
+@media only screen and (min-width: 1157.99px) {
   .footer-company {
     margin-right: 120px;
   }
@@ -980,7 +980,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 1439.99px) {
+@media only screen and (min-width: 1157.99px) {
   .footer-subscribe-form {
     justify-content: start;
   }
