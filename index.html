@@ -32,6 +32,7 @@
     <title>WebStudio - Effective Solutions for Your Business</title>
   </head>
   <body>
+    <!-- #region Header -->
     <header class="header">
       <div class="header-container container">
         <!--
@@ -43,6 +44,16 @@
           <a href="./index.html" class="logo"
             >Web<span class="logo-studio">Studio</span></a
           >
+          <button
+            class="mobile-menu-btn js-open-menu"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="header-menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+          </button>
           <ul class="header-links">
             <li>
               <a href="./index.html" class="header-menu-item active">Studio</a>
@@ -71,8 +82,10 @@
         </address>
       </div>
     </header>
-    <main>
-      <section class="section order-section text-center">
+    <!-- #endregion-->
+    <main hidden>
+      <!-- #region Section 1 -->
+      <section class="section order-section text-center" hidden>
         <div class="container">
           <!--
           ========================================
@@ -87,7 +100,9 @@
           </button>
         </div>
       </section>
-      <section class="section">
+      <!-- #endregion -->
+      <!-- #region Header 2 -->
+      <section class="section" hidden>
         <div class="container">
           <!--
           ================================
@@ -163,7 +178,9 @@
           </ul>
         </div>
       </section>
-      <section class="section team-section">
+      <!-- #endregion -->
+      <!-- #region Header 3 -->
+      <section class="section team-section" hidden>
         <div class="container">
           <!--
           ================================
@@ -351,7 +368,9 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <!-- #endregion -->
+      <!-- #region Header 4 -->
+      <section class="section" hidden>
         <div class="container">
           <!--
           ================================
@@ -477,8 +496,10 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion -->
     </main>
-    <footer class="footer bg-navy-blue">
+    <!-- #region Footer-->
+    <footer class="footer bg-navy-blue" hidden>
       <div class="container footer-container">
         <div class="footer-company">
           <a href="./index.html" class="logo-footer"
@@ -543,7 +564,9 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay is-open">
+    <!-- #endregion-->
+    <!-- #region Modal -->
+    <div class="modal-overlay" hidden>
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-close-btn-svg" width="8" height="8">
@@ -630,5 +653,77 @@
         </form>
       </div>
     </div>
+    <!-- #endregion-->
+    <!-- #region Mobile menu -->
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <button class="mobile-menu-btn js-close-menu" type="button">
+        <svg width="8" height="8">
+          <use href="./images/icons.svg#icon-close-symbol"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu-nav">
+        <li>
+          <a class="current" href="#">Studio</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="#">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-contacts">
+        <li>
+          <a class="mobile-menu-address-regular accent" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li>
+          <a
+            class="mobile-menu-address-regular"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-social-item">
+        <li class="social-item">
+          <a class="mobile-menu-social-item-svg" href="">
+            <svg class="social-svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="mobile-menu-social-item-svg" href="">
+            <svg class="social-svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="mobile-menu-social-item-svg" href="">
+            <svg class="social-svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="mobile-menu-social-item-svg" href="">
+            <svg class="social-svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- #endregion -->
+    <!-- #region Scripts-->
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/form.js"></script>
+    <!-- #endregion-->
   </body>
 </html>

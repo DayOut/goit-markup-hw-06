@@ -1,0 +1,66 @@
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+  
+    --font-family: "Roboto";
+    --font-weight-regular: 400;
+    --font-weight-medium: 500; 
+    --font-weight-bold: 700; 
+  }
+  
+  h1,h2,h3,h4,h5,h6,p {
+    margin:0;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  body {
+    font-family: var(--font-family), sans-serif;
+    font-size: 16px;
+  
+    color: var(--slate);
+    background-color: var(--white);
+  }
+  
+  a, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover, a:focus {
+    color: var(--ocean);
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
